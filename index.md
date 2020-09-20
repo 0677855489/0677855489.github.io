@@ -1,22 +1,47 @@
- <!DOCTYPE html>
-<html>
-<title>Hello Strapdown</title>
+# Installation
+<p class="uk-article-lead">Pagekit's installation process is quick and easy and only takes a few minutes.</p>
 
-<xmp theme="united" style="display:true;">
-# Markdown text goes in here
+<ul class="uk-list">
+    <li><a href="#step-1-download-and-open-the-installer">Step 1: Download and open the Installer</a></li>
+    <li><a href="#step-2-language">Step 2: Language</a></li>
+    <li><a href="#step-3-database">Step 3: Database</a></li>
+    <li><a href="#step-4-site-setup">Step 4: Site setup</a></li>
+</ul>
 
-## Chapter 1
+## Step 1: Download and open the Installer
+First of all, you need to [download](http://pagekit.com/api/download/latest) the latest Pagekit package and extract the contents to your webserver – either to the web root directory or to a subfolder, for example `/pagekit`.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-et dolore magna aliqa.
+**Note** If you unzip the package locally before uploading, make sure to also include the hidden `.htaccess` file.
 
-## Chapter 2
+Open your browser and navigate to the URL of the extracted Pagekit content. You should now see the first screen of the web installer.
 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-culpa qui officia deserunt mollit anim id est laborum.
-</xmp>
+## Step 2: Language
+In the first step of the actual setup process you choose the main language for the site. It will be the default language used on the admin panel and frontend. Both can be changed at any time later.
 
-<script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
-</html>
+## Step 3: Database
+In this step you enter the details to connect to the database. By default, Pagekit uses SQLite to store your site's data. Here you need to fill in the fields _Database Name_ and _Table Prefix_. The default prefix is `pk_`.
+
+Alternatively, you can also choose to use MySQL. In that case the following details need to be entered.
+
+Field           | Description
+--------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------
+_Driver_        | Enter the Database Driver. It depends on the type of database you want to use.
+_Hostname_      | Enter the host name of your database server. If the webserver and database server are on the same machine, this will be `localhost` or `127.0.0.1`.
+_User_          | Enter a MySQL username that has access to the database.
+_Password_      | Enter the MySQL user's password.
+_Database Name_ | Enter the database name.
+_Table Prefix_  | You can change the prefix that is used for the database tables. The default prefix is `pk_`.
+
+**Note** Pagekit will try to create the database during installation. You can also do this yourself using a tool like [phpMyAdmin](http://http://www.phpmyadmin.net/). Feel free to use an existing database. Pagekit prefixes its tables to avoid conflicts.
+
+## Step 4: Site setup
+After entering your site's title, you need to create a user account for Pagekit. This user will have admin access and will be able to log in to Pagekit's control panel, once the installation is finished.
+
+Field        | Description
+------------ | ------------------------
+_Site Title_ | The site title.
+_Username_   | Enter the admin username.
+_Password_   | Enter the admin password.
+_Email_      | Enter the admin email.
+
+Once the installation was successful, you are redirected to the login screen. You can log in to Pagekit's admin panel with the account you've created. If you want to sign in to the admin area in the future, you can always reach the login screen by appending `/admin` to your site's URL.
