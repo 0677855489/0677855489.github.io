@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-09-23_1206",
-    "currentPage": "page.jp.html",
+    "currentPage": "page.fr.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -51,7 +51,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "publishChangesOnly": false
+    "publishChangesOnly": true
   },
   "pages": {
     "index.html": {
