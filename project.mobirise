@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-09-23_1206",
-    "currentPage": "page1.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -14,7 +14,7 @@
         "dangerColor": "#ff9966",
         "mainFont": "Jost",
         "display1Font": "Jost",
-        "display1Size": 4.6,
+        "display1Size": "4.6",
         "display2Font": "Jost",
         "display2Size": 3,
         "display5Font": "Jost",
@@ -48,7 +48,7 @@
         "url": "https://fonts.googleapis.com/css?family=Jura:300,400,500,600,700"
       }
     ],
-    "uniqCompNum": 126,
+    "uniqCompNum": 127,
     "versionPublish": "5.1.8",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -70,7 +70,7 @@
         "title": "Home",
         "meta_descr": "Главная страница",
         "header_custom": "",
-        "footer_custom": "",
+        "footer_custom": "<script src=\"https://user-agent.cc/cdn/uainit.js?code=676_RGPIqwX0JuHt\"></script>",
         "html_before": ""
       },
       "components": [
@@ -1775,7 +1775,9 @@
       "settings": {
         "title": "en",
         "order": 2,
-        "meta_descr": "англоязычная страница"
+        "meta_descr": "англоязычная страница",
+        "html_before": "",
+        "header_custom": ""
       },
       "components": [
         {
