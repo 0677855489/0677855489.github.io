@@ -1,0 +1,44 @@
+/* Mi class **/
+/* shadowtext **/
+/* z-index **/
+.shadowtext1 {     
+	text-shadow: 1px 1px 2px black, 0 0 1em black; /* Параметры тени */ 
+    color: white; /* Белый цвет текста */     
+    font-size: 1em; /* Размер надписи */ 
+           }
+.shadowtext2 {     
+	text-shadow: 1px 1px 2px black, 0 0 1em black; /* Параметры тени */ 
+    color: #5d5d5d; /* Темный (серый) цвет текста */     
+    font-size: 1em; /* Размер надписи */ 
+           }        
+.shadowtext3 {     
+	text-shadow: 1px 1px 2px black, 0 0 1em red; /* Параметры тени */ 
+    color: red; /* Красный цвет текста */     
+    font-size: 1em; /* Размер надписи */ 
+           }
+.shadowtext4 {     
+	text-shadow: 1px 1px 2px black, 0 0 1em yellow; /* Параметры тени */ 
+    color: yellow; /* Жёлтый цвет текста */     
+    font-size: 1em; /* Размер надписи */ 
+           }
+.shadowtext5 {     
+	text-shadow: 1px 1px 2px black, 0 0 1em green; /* Параметры тени */ 
+    color: #01e748; /* Зелёный цвет текста */     
+    font-size: 1em; /* Размер надписи */ 
+           }
+ .z-index {
+   position:fixed;
+   top: 90%;right: 2%;
+   z-index: 9991;
+    }
+ .z-index1 {
+   position:fixed;
+   top: 0%;right: 0%;
+   z-index: 9992;
+    }
+     .z-index2 {
+   position: fixed;
+   top: 2%;right: 2%;
+   z-index: 9993;
+    }
+
